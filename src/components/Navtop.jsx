@@ -4,7 +4,7 @@ import { IoIosSettings } from "react-icons/io";
 const Navtop = () => {
   return (
     <div className="bg-white">
-      <div className="navbar bg-base-100 px-4 py-2">
+      <div className="navbar bg-base-100 px-4 py-4 pb-6">
         {/* Large screen logo */}
 
         <div className="lg:relative lg:top-2 flex-1 cursor-pointer">
@@ -32,11 +32,11 @@ const Navtop = () => {
           {/* Input field for searching */}
 
           <div className="form-control ">
-            <IoSearchOutline className="absolute text-gray-500 z-10 lg:top-[2.1rem] top-5 right-[5.2rem] lg:right-[25rem] text-2xl lg:text-xl" />
+            <IoSearchOutline className="absolute text-gray-500 z-10 lg:top-[2.6rem] top-6 right-[5.2rem] lg:right-[25rem] text-2xl lg:text-xl" />
             <input
               type="text"
               placeholder="Search Hadith"
-              className="input font-sans font-normal border-2 lg:h-14 lg:w-[18rem] w-11 h-11 focus:text-black input-bordered lg:bg-white bg-[#ECEEF0] md:w-auto pl-7 relative lg:bottom-0 lg:top-2 lg:pl-10 outline-none border-[#DEE1E5] rounded-lg focus:outline-0 "
+              className="input font-sans font-normal border-2 lg:h-14 lg:w-[18rem] w-11 h-11 focus:text-black input-bordered lg:bg-white bg-[#ECEEF0] md:w-11 pl-7 relative lg:bottom-0 lg:top-2 lg:pl-10 outline-none border-[#DEE1E5] rounded-lg focus:outline-0 "
             />
           </div>
 

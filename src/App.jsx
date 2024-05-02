@@ -1,7 +1,9 @@
+import Navtop from "./components/Navtop";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-extrabold">test</h1>
+      <Navtop />
     </>
   );
 }

@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: kalpurush;
+  src: url(../public/kalpurush.ttf);
+}
+
+.kalpurush-font {
+  font-family: kalpurush;
+}
+
+body {
+  font-family: kalpurush;
+}

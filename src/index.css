@@ -7,10 +7,37 @@
   src: url(../public/kalpurush.ttf);
 }
 
+@font-face {
+  font-family: kfgq;
+  src: url(../public/KFGQPC\ Uthman\ Taha\ Naskh\ Regular.ttf);
+}
+
 .kalpurush-font {
   font-family: kalpurush;
 }
 
+.kfgq-font {
+  font-family: kfgq;
+}
+
 body {
   font-family: kalpurush;
+}
+
+/* CSS for custom scrollbar */
+/* Track */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777676;
+
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9b9b;
 }

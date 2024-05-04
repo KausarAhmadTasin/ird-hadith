@@ -15,7 +15,7 @@ const Navtop = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-white z-10">
       <div className="navbar bg-base-100 px-4 py-3 lg:py-2 lg:pb-6">
         {/* Large screen logo */}
 
@@ -44,7 +44,7 @@ const Navtop = () => {
           {/* Input field for searching */}
 
           <div className="form-control ">
-            <IoSearchOutline className="absolute text-gray-500 z-10 lg:top-[2.1rem] top-6 right-[5.2rem] lg:right-[25rem] text-2xl lg:text-xl" />
+            <IoSearchOutline className="absolute text-gray-500 z-10 lg:top-[2.1rem] top-5 right-[5.25rem] lg:right-[25rem] text-2xl lg:text-xl" />
             <input
               type="text"
               placeholder="Search Hadith"
@@ -82,7 +82,7 @@ const Navtop = () => {
 
                 {/* Drawer Options */}
                 <div className="mr-3 mt-10">
-                  <p className="text-base font-bold pb-1 pl-1 text-lg">
+                  <p className="font-bold pb-1 pl-1 text-lg">
                     আরবি ফন্ট সিলেক্ট করুন
                   </p>
                   <select className="select font-sans w-full max-w-xs">

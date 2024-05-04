@@ -5,7 +5,7 @@ import { LuBookmark, LuCopy } from "react-icons/lu";
 
 const Hadiths = () => {
   return (
-    <div className="bg-[#F2F4F6] py-6 lg:w-[92.9vw] lg:relative lg:left-[6rem] flex flex-col lg:rounded-tl-3xl lg:max-h-[86vh]">
+    <div className="bg-[#F2F4F6] mb-14 lg:mb-6 py-6 lg:w-[92.9vw] lg:relative lg:left-[6rem] flex flex-col lg:rounded-tl-3xl lg:max-h-[86vh]">
       {/*  */}
       <div className="overflow-y-auto space-y-4 h-[100%]">
         <div className="navbar w-[95%] lg:w-[89vw] px-4 mx-auto bg-base-100 rounded-xl">
@@ -74,9 +74,9 @@ const Hadiths = () => {
         </div>
 
         {/* Hadith */}
-        <div className="w-[95%] lg:w-[89vw] px-2 mx-auto bg-base-100  rounded-xl">
+        <div className="w-[95%] lg:w-[89vw] px-2 mx-auto bg-base-100 rounded-xl">
           <ul>
-            <li className="mb-4 bg-white p-5 rounded-2xl mr-0 width">
+            <li className="mb-4 bg-white lg:p-5 p-3 py-6 rounded-2xl mr-0 width">
               <div className="flex text-[#2B9E76] text-xl items-center gap-3">
                 <svg
                   width="25"
@@ -93,7 +93,7 @@ const Hadiths = () => {
                 <p>১</p>
               </div>
 
-              <p className="text-2xl text-right leading-loose kfgq-font mt-4 mb-4 p-3 ">
+              <p className="text-2xl text-right leading-loose kfgq-font mt-4 mb-4 p-1 ">
                 حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ
                 حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ
                 الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ
@@ -124,10 +124,10 @@ const Hadiths = () => {
               </p>
 
               {/* Icons */}
-              <div className="flex justify-between items-center pt-14">
+              <div className="flex lg:flex-row flex-col gap-y-6 justify-between items-center pt-8 lg:pt-14">
                 <div className="flex items-center gap-x-3 ">
                   <p className="text-lg font-semibold">হাদিসের মান :</p>
-                  <div className="bg-[#46B891] h-7 p-4 text-white rounded-md flex items-center justify-center">
+                  <div className="bg-[#46B891] h-7 p-4 py-5 text-white rounded-md flex items-center justify-center">
                     <p className="font-semibold">সহিহ হাদিস</p>
                   </div>
                 </div>

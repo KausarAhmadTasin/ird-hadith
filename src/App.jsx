@@ -5,9 +5,12 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <>
-      <Navtop />
-      <Hadiths />
+      <div className="z-10">
+        {" "}
+        <Navtop />
+      </div>
       <Sidebar />
+      <Hadiths />
     </>
   );
 }

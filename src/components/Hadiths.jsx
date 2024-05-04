@@ -5,7 +5,7 @@ import { LuBookmark, LuCopy } from "react-icons/lu";
 
 const Hadiths = () => {
   return (
-    <div className="bg-[#F2F4F6] mb-14 lg:mb-6 py-6 lg:w-[92.9vw] lg:relative lg:left-[6rem] flex flex-col lg:rounded-tl-3xl lg:max-h-[86vh]">
+    <div className="bg-[#F2F4F6] border mb-14 lg:mb-6 lg:pb-6 pb-20 py-6 lg:w-[92.9vw] lg:relative lg:left-[6rem] flex flex-col lg:rounded-tl-3xl lg:max-h-[86vh]">
       {/*  */}
       <div className="overflow-y-auto space-y-4 h-[100%]">
         <div className="navbar w-[95%] lg:w-[89vw] px-4 mx-auto bg-base-100 rounded-xl">
@@ -74,7 +74,7 @@ const Hadiths = () => {
         </div>
 
         {/* Hadith */}
-        <div className="w-[95%] lg:w-[89vw] px-2 mx-auto bg-base-100 rounded-xl">
+        <div className="w-[95%] lg:w-[89vw] px-2 mb-10 mx-auto bg-base-100 rounded-xl">
           <ul>
             <li className="mb-4 bg-white lg:p-5 p-3 py-6 rounded-2xl mr-0 width">
               <div className="flex text-[#2B9E76] text-xl items-center gap-3">
